@@ -1,8 +1,7 @@
 # 01 — Fixed-α EMA / First-Order IIR Low-Pass Filter: Response Time vs. Noise Trade-off
 
 <p align="center">
-  <img src="./plots/Recursivefilter_graph_result.png" width="48%">
-  <img src="./plots/single_alpha_compare.jpg" width="48%">
+  <img src="./plots/single_alpha_compare.jpg" width="80%">
 </p>
 
 ## Aim
@@ -195,15 +194,7 @@ For example:
 A fixed-α filter cannot automatically adjust this balance.
 
 This motivates studying adaptive estimation techniques such as the **Kalman filter**, where the gain is determined from the estimated uncertainty of the system and measurements rather than being manually fixed to one constant value.
-
-## Files
-
-| File                                     | Description                                       |
-| ---------------------------------------- | ------------------------------------------------- |
-| `single_alpha_ema.m`                     | Single fixed-α recursive filter run using α = 0.8 |
-| `alpha_comparison.m`                     | Comparison of α = 0.1, 0.2, 0.5, and 0.8          |
-| `plots/Recursivefilter_graph_result.png` | Result of the single-α filter experiment          |
-| `plots/single_alpha_compare.jpg`         | α comparison results                              |
+                           |
 
 ## Results
 
